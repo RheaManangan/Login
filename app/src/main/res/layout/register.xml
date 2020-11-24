@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1B1E23"
+    android:gravity="center">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/profile"
+        android:layout_marginTop="0dp"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Username"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="0dp"
+        android:textColorHint="#FFA500"
+        android:textSize="26dp"
+        android:textColor="#FFA500"
+        android:id="@+id/user"
+        />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="0dp"
+        android:textColorHint="#FFA500"
+        android:textSize="26dp"
+        android:textColor="#FFA500"
+        android:inputType="textPassword"
+        android:id="@+id/pass"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="0dp"
+        android:textColorHint="#FFA500"
+        android:textSize="26dp"
+        android:textColor="#FFA500"
+        android:inputType="textPassword"
+      android:id="@+id/cpassword"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="50dp"
+        android:text="REGISTER"
+        android:background="@drawable/button_rounded"
+        android:textColor="#FFFFFF"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:id="@+id/reg"/>
+
+</LinearLayout>
